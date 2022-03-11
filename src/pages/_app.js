@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import { ThemeProvider } from 'theme-ui'
+import { ThemeProvider } from '@theme-ui/core'
 import theme from '../theme'
 
 import Layout from '../components/Layout'
