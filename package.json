@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "source .env && next -p 4000",
     "build": "rm -rf out .next && next build",
-    "export": "next export"
+    "export": "next export",
+    "format": "prettier --config .prettierrc --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "repository": {
     "type": "git",
