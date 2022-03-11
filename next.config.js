@@ -2,8 +2,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-require('dotenv').config()
-
 module.exports = (phase, { defaultConfig }) => {
   const config = {
     ...withBundleAnalyzer({
