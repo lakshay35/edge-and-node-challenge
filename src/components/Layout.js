@@ -1,13 +1,10 @@
-import { jsx } from 'theme-ui'
-
-const Layout = ({ children, page }) => {
+const Layout = ({ children }) => {
   return (
     <div>
       <header></header>
 
       <main>{children}</main>
       <style jsx global>{`
-        // Defaults
         *,
         *:before,
         *:after,
