@@ -1,23 +1,19 @@
 {
-  "name": "website",
+  "name": "@edgeandnode/interview-challenge",
   "version": "0.1.0",
-  "description": "Public Pages for Edge & Node",
-  "main": "index.js",
+  "private": true,
+  "license": "ISC",
+  "description": "Interview challenge for Edge & Node Product Team",
   "scripts": {
     "dev": "next -p 4000",
-    "build": "rm -rf out .next && next build",
+    "build": "next build",
     "export": "next export",
-    "format": "prettier --config .prettierrc --write 'src/**/*.{js,jsx,ts,tsx}'",
-    "prepare": "husky install"
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/edgeandnode/interview-challenge"
   },
-  "author": "Nena Djaja",
-  "license": "ISC",
-  "keywords": [],
-  "homepage": "",
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
     "@babel/plugin-transform-modules-commonjs": "^7.16.8",
@@ -39,15 +35,8 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.40",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.5",
     "prettier": "^2.5.1",
     "pretty-quick": "^3.1.3",
     "typescript": "^4.6.2"
-  },
-  "lint-staged": {
-    "*.{js,jsx,json}": [
-      "prettier --write --config ./.prettierrc"
-    ]
   }
 }
