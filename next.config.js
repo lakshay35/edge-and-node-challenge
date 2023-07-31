@@ -9,7 +9,7 @@ module.exports = (phase, { defaultConfig }) => {
         return config
       },
       env: {
-        NETWORK_HTTP_URI: process.env.NETWORK_HTTP_URI
+        NETWORK_HTTP_URI: process.env.NETWORK_HTTP_URI,
       },
       exportPathMap: async function (defaultPathMap) {
         return defaultPathMap
