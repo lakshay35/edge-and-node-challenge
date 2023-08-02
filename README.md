@@ -9,8 +9,6 @@ We recommend spending no more than 4 hours on this challenge. If you don't finis
 
 Use any GraphQL client and styling solution you're comfortable with. The focus of this is more on general programming and problem-solving than on specific technologies.
 
----
-
 ## The task
 
 In this exercise, you will create an Epochs table that has sorting, search and/or pagination. Data will be available at the endpoint provided in the .env file.
