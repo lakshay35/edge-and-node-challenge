@@ -5,5 +5,4 @@ node_modules
 out
 .DS_Store
 .vercel
-yarn-error.log
 tsconfig.tsbuildinfo
