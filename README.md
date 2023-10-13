@@ -2,7 +2,7 @@
 
 This is a Next.js React app interview challenge for the Edge & Node's Product Engineering team.
 
-Create a private repo based on this one and add the interviewers as collaborators. \
+Create a private repo based on this one and add the interviewers as collaborators (`IainM22`, `hasparus`, `cmwhited`, `dnfodjo`, `nasmr`). \
 You can also email us a [git bundle](https://git-scm.com/docs/git-bundle) of your repo history if you prefer.
 
 We recommend spending no more than 4 hours on this challenge. If you don't finish, that's ok.
