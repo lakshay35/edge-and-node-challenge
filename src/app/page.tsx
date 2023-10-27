@@ -1,7 +1,12 @@
+'use client'
+import { ApolloProvider } from '@apollo/client'
+import { graphClient } from '../api'
+import { Epoches } from '../components/epoches'
+
 export default function IndexPage() {
   return (
-    <main>
-      <p>Welcome to Edge & Node's Product Team interview challenge</p>
-    </main>
+    <ApolloProvider client={graphClient}>
+      <Epoches />
+    </ApolloProvider>
   )
 }
